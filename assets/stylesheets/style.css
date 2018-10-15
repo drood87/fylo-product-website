@@ -10,7 +10,13 @@ body {
 /*Typography                  */
 /*============================*/
 
+.heading--font {
+	font-family: 'Raleway', sans-serif;
+}
 
+.body--font {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /*============================*/
 /*Hero                        */
@@ -18,13 +24,12 @@ body {
 
 .hero {
 	background-image: linear-gradient(to bottom right,hsl(243, 87%, 12%), hsl(243, 86%, 85%));
-	font-family: 'Raleway', sans-serif;
 	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
 	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
 	height: 700px;
 }
 
-.hero__wrapper--width {
+.wrapper--width {
 	max-width: 90%;
 	margin: 0 auto;
 }
@@ -45,17 +50,16 @@ body {
 	width: auto;
 }
 
-.btn {
-	font-family: 'Open Sans', sans-serif;	
+.btn {	
 	text-decoration: none;
 	background-color: hsl(163, 95%, 43%);
 	color: #fff;
+	border-radius: 2px;
 }
 
 .btn__nav--small {	
 	font-weight: 400;
-	padding: 10px 20px 10px 20px;
-	border-radius: 2px;	
+	padding: 10px 20px 10px 20px;		
 	margin: 5px;																
 }
 
@@ -79,6 +83,18 @@ body {
 
 .btn__content--big {
 	font-weight: 600;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 15px 100px 15px 100px;
+}
+
+/*============================*/
+/*Section                     */
+/*============================*/
+
+.section__wrapper {
+	margin-top: 60px;
+}
+
+.section__heading {
+	text-align: center;
+	color: hsl(243, 58%, 33%);
 }
