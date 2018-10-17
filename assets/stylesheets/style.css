@@ -111,3 +111,64 @@ body {
 	grid-gap: 13%;
 	margin-left: 10%;
 }
+
+/*============================*/
+/*Email Signup                */
+/*============================*/
+
+.sign-up__wrapper {
+	max-width: 55%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 200px /*JUST FOR DEVELOPMENT */
+}
+
+.sign-up__form {
+	display: flex;
+	justify-content: center;
+	max-width: 80%;
+	margin: 0 auto;
+	height: 45px;
+}
+
+.section__heading--big {
+	font-size: 1.9rem;
+	color: hsl(243, 87%, 12%);
+}
+
+.input-field {
+	flex: 2 0 50%;
+	border: 0.5px solid rgba(0,0,0,0.05);
+	background: #fff;
+	box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding-left: 5%;
+}
+
+::placeholder {
+	color: hsl(0, 0%, 50%);
+	opacity: 0.4;
+	font-weight: 600;
+}
+
+input:-webkit-autofill {
+	-webkit-text-fill-color: black;
+  	-webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  	transition: background-color 5000s ease-in-out 0s;
+  	overflow: hidden;
+  	font-weight: 600;
+}
+
+.btn__submit {
+	flex: 1 0 20%;
+	border: none;
+	margin-left: 4%;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.sign-up__paragraph--blue {
+	color: hsl(243, 58%, 33%);
+	font-weight: 600;
+	font-size: 1.1em;
+}
