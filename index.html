@@ -77,49 +77,51 @@
   </section>
 
   <footer class="footer__wrapper wrapper--width body--font">
-    <div class="footer__content">
-      <div class="footer__contact-details">
-        <img class="logo hero__logo" src="./images/logo.svg">
-        <div class="contact-details__phone">
-          <img src="./images/icon-phone.svg">
-          <span>Phone: +1-543-123-456</span>
+    <div class="footer__wrapper--height">
+      <div class="footer__content">
+        <div class="footer__contact-details footer__contact-details--border">
+          <img class="logo footer__logo--margin" src="./images/logo.svg">
+          <div class="contact-details__phone--margin footer__grid--heading-big">
+            <img src="./images/icon-phone.svg">
+            <span>Phone: +1-543-123-456</span>
+          </div>
+          <div class="contact-details__email">
+            <img src="./images/icon-email.svg">
+            <span>example@fylo.com</span>
+          </div>
         </div>
-        <div class="contact-details__email">
-          <img src="./images/icon-email.svg">
-          <span>example@fylo.com</span>
+        
+        <div class="footer__links footer__contact-details--border">
+          <ul class="footer__grid fylo">
+            <li class="footer__grid--heading-big">Fylo</li>
+            <li><a href="#">Desktop App</a></li>
+            <li><a href="#">Mobile App</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Feature</a></li>
+          </ul>
+          <ul class="footer__grid company">
+            <li class="footer__grid--heading-big">Company</li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <ul class="footer__grid support">
+            <li class="footer__grid--heading-big">Support</li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>      
         </div>
-      </div>
-      
-      <div class="footer__links">
-        <ul class="footer__grid fylo">
-          <li class="footer__grid--heading-big">Fylo</li>
-          <li><a href="#">Desktop App</a></li>
-          <li><a href="#">Mobile App</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Feature</a></li>
-        </ul>
-        <ul class="footer__grid company">
-          <li class="footer__grid--heading-big">Company</li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Jobs</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <ul class="footer__grid support">
-          <li class="footer__grid--heading-big">Support</li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Privacy</a></li>
-        </ul>      
-      </div>
-      
-      <div class="footer__sign-up">
-        <p class="sign-up__paragraph">Receive updates from us, including tips and tricks on how to improve your workflow</p>
-      
-        <form class="footer__form">
-          <input type="email" name="email" placeholder="" class="input-field body--font">
-          <input type="submit" name="submit" value="Join" class="btn btn__submit body--font">
-        </form>
+        
+        <div class="footer__sign-up">
+          <p class="sign-up__paragraph">Receive updates from us, including tips and tricks on how to improve your workflow</p>
+        
+          <form class="footer__sign-up--form">
+            <input type="email" name="email" placeholder="" class="input-field body--font">
+            <input type="submit" name="submit" value="Join" class="btn btn__submit btn__submit--small body--font">
+          </form>
+        </div>
       </div>
     </div>
   </footer>
