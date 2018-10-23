@@ -1,5 +1,11 @@
 /*General Styles*/
 
+* {
+	line-height: 1.5;
+	word-spacing: 1.5px;
+	letter-spacing: 1.2px;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -162,7 +168,7 @@ a {
 	box-sizing: border-box;
 }
 
-::placeholder {
+/*::placeholder {
 	color: hsl(0, 0%, 50%);
 	opacity: 0.4;
 	font-weight: 600;
@@ -174,7 +180,7 @@ input:-webkit-autofill {
   	transition: background-color 5000s ease-in-out 0s;
   	overflow: hidden;
   	font-weight: 600;
-}
+}*/
 
 .btn__submit {
 	flex: 1 0 25%;
@@ -189,6 +195,14 @@ input:-webkit-autofill {
 	color: hsl(243, 58%, 33%);
 	font-weight: 600;
 	font-size: 1.1em;
+}
+
+.heading--blue {
+	color: hsl(243, 87%, 12%);
+}
+
+.body--gray {
+	color: hsl(0, 0%, 50%)
 }
 
 /*============================*/
@@ -220,12 +234,12 @@ input:-webkit-autofill {
 .footer__links {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 50px;
+	grid-gap: 18px;
 }
 
 .footer__grid {
 	display: grid;
-	grid-gap: 10%;
+	grid-gap: 13%;
 	grid-template-rows: 30px 15px 15px 15px;
 }
 
@@ -235,13 +249,14 @@ input:-webkit-autofill {
 }
 
 .footer__sign-up {
-	max-width: 25%;
+	max-width: 30%;
+	margin-left: 5%;
 }
 
 .footer__contact-details--border {
 	border-right: 2px solid #fff;
-	padding-right: 8%;
-	height: 180px;
+	padding-right: 5%;
+	height: 205px;
 }
 
 .footer__sign-up--form {
