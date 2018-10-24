@@ -54,6 +54,10 @@ a {
 	/*max-width: 90%;*/
 }
 
+
+
+
+
 .hero__nav-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -104,6 +108,39 @@ a {
 .btn__content--big {
 	font-weight: 600;
 	padding: 15px 100px 15px 100px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 930px) {
+	.illustration-mobile {
+		background-image: url("../../images/illustration-hero.svg");
+		background-size: contain;
+		background-position: center;
+		margin: 0 auto;
+		height: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.illustration {
+		display: none;
+	}
+
+	.wrapper--width {
+		max-width: 90%;
+	}
+
+	.hero__flex-item {
+		max-width: auto;
+	}
+
+	.hero__heading {
+		font-size: 2em;
+	}
+
+	.heading {
+		text-transform: none;
+	}
+
 }
 
 /*============================*/
@@ -167,20 +204,6 @@ a {
 	border-radius: 2px;
 	box-sizing: border-box;
 }
-
-/*::placeholder {
-	color: hsl(0, 0%, 50%);
-	opacity: 0.4;
-	font-weight: 600;
-}
-
-input:-webkit-autofill {
-	-webkit-text-fill-color: black;
-  	-webkit-box-shadow: 0 0 0px 1000px #fff inset;
-  	transition: background-color 5000s ease-in-out 0s;
-  	overflow: hidden;
-  	font-weight: 600;
-}*/
 
 .btn__submit {
 	flex: 1 0 25%;
