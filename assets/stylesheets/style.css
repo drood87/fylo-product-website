@@ -50,10 +50,10 @@ a {
 }
 
 /*============================*/
-/*Screen width max 930px      */
+/*screen width max 930px      */
 /*============================*/
 
-@media only screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
 	.hero {
 		
 	}
@@ -76,10 +76,10 @@ a {
 
 
 /*============================*/
-/*Screen width max 930px      */
+/*screen width max 930px      */
 /*============================*/
 
-@media only screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
 	.hero__content-wrapper {
 		display: flex;
 		flex-direction: column;
@@ -88,7 +88,7 @@ a {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (min-width : 320px) and (max-width : 480px) {
 	.hero__logo {
 		max-width: 30%;
 	}
@@ -109,7 +109,7 @@ a {
 	text-decoration: none;
 	background-color: hsl(163, 95%, 43%);
 	color: #fff;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
 .btn__nav--small {	
@@ -124,12 +124,13 @@ a {
 }
 
 /*============================*/
-/*Screen width max 480px      */
+/*screen width max 480px      */
 /*============================*/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (min-width : 320px) and (max-width : 480px) {
 	.btn__nav--small {
 		padding: 5px 10px 5px 10px;
+		margin: 0;
 	}
 
 	.btn__content--big {
@@ -160,11 +161,11 @@ a {
 }
 
 /*============================*/
-/*Screen width max 480px      */
+/*screen width max 480px      */
 /*============================*/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (min-width : 320px) and (max-width : 480px) {
 	.hero__flex-item {
 		max-width: 100%;
 		text-align: center;
@@ -172,11 +173,11 @@ a {
 }
 
 /*============================*/
-/*Screen width max 930px      */
+/*screen width max 930px      */
 /*============================*/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
 	.hero__mobile-wrapper {
 		height: auto;
 	}
@@ -212,10 +213,14 @@ a {
 
 }
 
+/*============================*/
+/*screen width max 480px      */
+/*============================*/
+
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (min-width : 320px) and (max-width : 480px) {
 	.hero__heading {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		text-align: center;
 		font-weight: 200;
 	}
@@ -252,6 +257,21 @@ a {
 	grid-gap: 13%;
 	margin-left: 10%;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+	.features--grid {
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+	}
+
+	.mobile--capitalize {
+		text-transform: capitalize;
+	}
+}
+
+/*============================*/
+
 
 /*============================*/
 /*Email Signup                */
