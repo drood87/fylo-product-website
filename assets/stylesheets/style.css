@@ -436,7 +436,7 @@ a {
 		order: 3;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(3, 1fr);
-		grid-gap: 20%;
+		grid-gap: 30px;
 	}
 }
 
@@ -446,12 +446,13 @@ a {
 	grid-template-rows: 30px 15px 15px 15px;
 	grid-auto-rows: 15px;
 }
-/*
+
+/* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 320px) and (max-width : 480px) {
 	.footer__grid {
-		display: block;
+		grid-gap: 10px;
 	}
-}*/
+}
 
 .footer__grid--heading-big {
 	font-weight: 600;
@@ -481,9 +482,7 @@ a {
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 320px) and (max-width : 480px) {
 	.footer__contact-details--border {
-		border: none;
-		padding: 0;
-		height: 500px;
+		display: none;
 	}
 }
 
